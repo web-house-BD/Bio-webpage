@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- won css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Bio-webpage</title>
+</head>
+<body class="vh-100 bg-dark text-light">
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <span class="badge bg-danger shadow">David XOX</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+<span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="z-index: 10;">
+                    <li class="nav-item"><a href="" class="nav-link active" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="about contact">Info</a></li>
+                    <li class="nav-item"><a href="#about" role="button" class="nav-link " data-bs-toggle="collapse" aria-expanded="false" aria-controls="about ">About</a></li>
+                    <li class="nav-item"><a href="#contact" role="button" class="nav-link " data-bs-toggle="collapse" aria-expanded="false" aria-controls="contact ">Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+<!-- Header -->
+<header class="container fixed-top text-end mt-5">
+<h1 class="display-1">
+Hi. I am <span class="badge bg-secondary">David</span>
+</h1>
+<h2 class="display-3">
+Web developer
+</h2>
+<!-- profile btn -->
+<div class="btn-group">
+    <button class="btn btn-outline-danger text-uppercase" type="button" data-bs-toggle="offcanvas" data-bs-target="#portfolio" aria-controls="portfolio">
+my portfolio
+    </button>
+    <!-- email btn -->
+    <button class="btn btn-danger " type="button" data-bs-toggle="offcanvas" data-bs-target="#email" aria-controls="email">
+        <i class="bi bi-envelope-open"></i>
+            </button>
+
+</div>
+<!-- about -->
+<div class="row mt-3">
+    <div class="col-md-6 mt-3">
+        <div class="collapse multi-collapse" id="about">
+            <div class="card card-body text-start shadow bg-dark-transparent">
+                <h5 class="card-title text-danger">About</h5>
+                <div class="card-text">
+                    <h3 class="text-white-50 ms-3">
+                        David XOX
+                    </h3>
+                    <ul class="list-unstyled ms-5">
+                        <li>CEO of Menyhart Media</li>
+                        <li>Full Stack Web Developer</li>
+                        <li>Course Teacher</li>
+                        <li>Youtube Contant Creator</li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+<!-- contact -->
+    <div class="col-md-6 mt-3">
+        <div class="collapse multi-collapse" id="contact">
+            <div class="card card-body text-start shadow bg-dark-transparent">
+                <h5 class="card-title text-danger">Contact</h5>
+                <div class="card-text">
+                    <h3 class="text-white-50 ms-3">
+                        Get in touch:
+                    </h3>
+                    <ul class="list-unstyled ms-5">
+                        <li> <i class="bi bi-house me-2 text-danger"></i> City: The City </li>
+                        <li> <i class="bi bi-signpost me-2 text-danger"></i> Street:21 jump stre. </li>
+                        <li> <i class="bi bi-telephone me-2 text-danger"></i> Phone: +880 555 333 1624</li>
+                        <li> <i class="bi bi-envelope me-2 text-danger"></i> E-mail:@Yahoo.com </li>
+                       
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</header>
+<!-- profile -->
+<img src="https://source.unsplash.com/kOnmHdLJTNI" alt="profile" class="img-fluid profile-pic position-absolute top-0" style="z-index: -1;">
+<!-- offcanvas -->
+<div class="offcanvas offcanvas-start bg-dark" id="portfolio" tabindex="-1" aria-labelledby="offcanvasPortfolioLabel">
+    <div class="offcanvas-header">
+        <h1 class="offcanvas-title text-danger">
+            Portfolio</h1>
+            <button class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="close">
+
+            </button>
+
+        
+
+    </div>
+    <div class="offcanvas-body">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore vel culpa minus eos deleniti, debitis voluptas dolor cum qui sequi!
+        </p>
+        <ul class="list-group">
+            <a href="" class="list-group-item list-group-item-danger list-group-item-action mb-2"> <i class="bi bi-globe">Business Directory Website Themes</i></a>
+
+            <a href="" class="list-group-item list-group-item-danger list-group-item-action mb-2"> <i class="bi bi-globe">Resume Website Themes</i></a>
+
+            <a href="" class="list-group-item list-group-item-danger list-group-item-action mb-2"> <i class="bi bi-globe">Photo Sharing Website</i></a>
+
+            <a href="" class="list-group-item list-group-item-danger list-group-item-action mb-2"> <i class="bi bi-globe">E-commerce website</i></a>
+
+            <a href="" class="list-group-item list-group-item-danger list-group-item-action mb-2"> <i class="bi bi-globe">Blog website</i></a>
+
+        </ul>
+    </div>
+
+</div>
+<!-- offcanvas email -->
+<div class="offcanvas offcanvas-bottom bg-dark" tabindex="-1" id="email" aria-labelledby="offcanvasEmaillabel" style="height: 50vh;">
+<div class="offcanvas-header">
+    <h1 class="offcanvas-title text-danger" id="offcanvasEmaillabel">
+        E-mail
+    </h1>
+    <button class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="close">
+
+    </button>
+</div>
+    <div class="offcanvas-body d-flex w-75 flex-column m-auto">
+        <form class="w-100
+        " >
+        <div class="row">
+            <div class="col">
+                 <input type="text" class="form-control" placeholder="First name" aria-label="First name"> </div>
+                 <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"> </div>
+                    <div class="col-12 mt-3">
+                        <textarea class="w-100" rows="8" placeholder="write a massage"></textarea> </div> 
+            
+        </div>
+        <div class="col-12">
+<button type="submit" class="btn bnt-outline-danger mt-3 w-100">Send
+
+</button>
+        </div>
+    </form>
+
+    </div>
+</div>
+<!-- footer -->
+<footer class="w-100 fixed-bottom bg-dark-transparent text-lg-start text md-center">
+<div class="row align-items-center p-3">
+    <h3 class="col">10+ YERAS EXPERIENCE IN THIS GAME.</h3>
+    <i class="bi bi-bootstrap-fill w-100 btn-danger rounded-3 col-md text-center py-2 mx-2 fs-4"></i>
+    <!-- social icon -->
+    <div class="col ms-2 text-muted mt-sm-4 fs-2">
+<ul class="list-unstyled d-flex flex-row justify-content-around">
+    <li>
+        <a href="#"> <i class="bi bi-instagram text-white-50"></i> </a>
+    </li>
+    <li>
+        <a href="#"> <i class="bi bi-facebook text-white-50"></i> </a>
+    </li>
+    <li>
+        <a href="#"> <i class="bi bi-github text-white-50"></i> </a>
+    </li>
+    <li>
+        <a href="#"> <i class="bi bi-linkedin text-white-50"></i> </a>
+    </li>
+    <li>
+        <a href="#"> <i class="bi bi-twitter text-white-50"></i> </a>
+    </li>
+
+</ul>
+    </div>
+
+</div>
+</footer>
+    
+    <!-- js bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
